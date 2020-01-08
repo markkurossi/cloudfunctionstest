@@ -5,25 +5,21 @@
 package cloudfunctionstest
 
 import (
-	"context"
 	"fmt"
 	"net/http"
 
-	"golang.org/x/oauth2/google"
-	"google.golang.org/api/compute/v1"
+	"github.com/markkurossi/cloudfunctionstest/utils"
 )
 
 var projectID string
 
 func init() {
-	ctx := context.Background()
-
-	credentials, err := google.FindDefaultCredentials(ctx, compute.ComputeScope)
+	id, err := utils.GetProjectID()
 	if err != nil {
-		fmt.Printf("FindDefaultCredentials failed: %s\n", err)
+		fmt.Printf("GetProjectID failed: %s\n", err)
+		return
 	}
-
-	projectID = credentials.ProjectID
+	projectID = id
 }
 
 func Hello(w http.ResponseWriter, r *http.Request) {
