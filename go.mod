@@ -4,8 +4,8 @@ go 1.13
 
 require (
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
-	github.com/markkurossi/cloudfunctionstest/utils v0.0.0-20230221115728-0d377d985d8a
-	google.golang.org/genproto v0.0.0-20230222225845-10f96fb3dbec // indirect
+	github.com/markkurossi/cloudfunctionstest/utils v0.0.0-20230223125604-57845eb8c541
+	google.golang.org/genproto v0.0.0-20230223222841-637eb2293923 // indirect
 )
 
 replace github.com/markkurossi/cloudfunctionstest/utils => ./utils
