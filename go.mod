@@ -4,7 +4,7 @@ go 1.23.0
 
 toolchain go1.24.0
 
-require github.com/markkurossi/cloudfunctionstest/utils v0.0.0-20230225065442-ec6074bd54d2
+require github.com/markkurossi/cloudfunctionstest/utils v0.0.0-20250719082934-7950d911c377
 
 require (
 	cloud.google.com/go/auth v0.16.3 // indirect
@@ -27,9 +27,9 @@ require (
 	golang.org/x/oauth2 v0.30.0 // indirect
 	golang.org/x/sys v0.34.0 // indirect
 	golang.org/x/text v0.27.0 // indirect
-	google.golang.org/api v0.242.0 // indirect
-	google.golang.org/genproto/googleapis/rpc v0.0.0-20250715232539-7130f93afb79 // indirect
-	google.golang.org/grpc v1.73.0 // indirect
+	google.golang.org/api v0.243.0 // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20250721164621-a45f3dfb1074 // indirect
+	google.golang.org/grpc v1.74.2 // indirect
 	google.golang.org/protobuf v1.36.6 // indirect
 )
 
