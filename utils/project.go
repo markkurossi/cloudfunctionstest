@@ -11,6 +11,7 @@ import (
 	"google.golang.org/api/compute/v1"
 )
 
+// GetProjectID returns the project ID.
 func GetProjectID() (string, error) {
 	ctx := context.Background()
 

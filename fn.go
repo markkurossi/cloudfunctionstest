@@ -22,6 +22,7 @@ func init() {
 	projectID = id
 }
 
+// Hello implements the cloud function.
 func Hello(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintf(w, "Hello, world!\nProjectID=%s\n", projectID)
 }
