@@ -2,7 +2,7 @@ module github.com/markkurossi/cloudfunctionstest
 
 go 1.24.0
 
-require github.com/markkurossi/cloudfunctionstest/utils v0.0.0-20251007111236-68b412fb2256
+require github.com/markkurossi/cloudfunctionstest/utils v0.0.0-20251014171530-e68476c089e0
 
 require (
 	cloud.google.com/go/auth v0.17.0 // indirect
@@ -25,8 +25,8 @@ require (
 	golang.org/x/oauth2 v0.32.0 // indirect
 	golang.org/x/sys v0.37.0 // indirect
 	golang.org/x/text v0.30.0 // indirect
-	google.golang.org/api v0.252.0 // indirect
-	google.golang.org/genproto/googleapis/rpc v0.0.0-20251007200510-49b9836ed3ff // indirect
+	google.golang.org/api v0.253.0 // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20251022142026-3a174f9686a8 // indirect
 	google.golang.org/grpc v1.76.0 // indirect
 	google.golang.org/protobuf v1.36.10 // indirect
 )
