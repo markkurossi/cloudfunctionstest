@@ -2,6 +2,8 @@
 // fn.go
 //
 
+// Package cloudfunctionstest implements a sample Google Cloud
+// Function.
 package cloudfunctionstest
 
 import (
